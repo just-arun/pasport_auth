@@ -57,7 +57,7 @@ The serialization and deserialization logic is supplied by the application, allo
 
 ## Form
 A form is placed on a web page, allowing the user to enter their credentials and log in.
-
+```html
 <form action="/login" method="post">
     <div>
         <label>Username:</label>
@@ -71,3 +71,4 @@ A form is placed on a web page, allowing the user to enter their credentials and
         <input type="submit" value="Log In"/>
     </div>
 </form>
+```
